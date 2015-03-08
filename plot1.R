@@ -14,7 +14,7 @@ names(required_Data)
 attach(required_Data)
 
 
-png("plot1.png",width=400,height=400)
+png("plot1.png",width=480,height=480)
 
 #### plotting the histogram for the required column and adding main title and x label
 hist(Global_active_power,
